@@ -15,7 +15,7 @@ var _ = require('lodash');
 
 var records = [];
 
-var SLACK_URL = process.env.SLACK_URL;
+ console.log(process.env.SLACK_URL);
 
 var keys = {
   'high': '::',
